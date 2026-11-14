@@ -17,6 +17,6 @@ export class AppController {
 
   @Get('zdt-marker.txt')
   getMarker(): string {
-    return 'zdt-release-r1\n';
+    return 'zdt-release-r2\n';
   }
 }
