@@ -14,4 +14,9 @@ export class AppController {
   getHelloName(@Param('name') name: string): string {
     return this.appService.getHelloName(name);
   }
+
+  @Get('zdt-marker.txt')
+  getMarker(): string {
+    return 'zdt-release-r1\n';
+  }
 }
